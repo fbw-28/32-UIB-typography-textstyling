@@ -1,0 +1,49 @@
+/* css reset */
+@import url('https://fonts.googleapis.com/css?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px;
+    color: rgb(24, 6, 88);
+    font-family: 'Boogaloo', cursive;
+
+}
+
+blockquote {
+    margin: 0 0 0 30px;
+}
+h1, h3 {
+    font-family: 'Schoolbell', cursive, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+} 
+h1 {
+    font-size: 3em;
+}
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: -2px;
+    word-spacing: 10px;
+}
+blockquote {
+    font-style: italic;
+    line-height: 130%;
+}
+span {
+    text-decoration: line-through;
+}
+em {
+    text-transform: capitalize;
+}
+strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a {
+    color: black;
+    text-transform: none;
+}
