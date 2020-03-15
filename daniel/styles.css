@@ -12,3 +12,54 @@ blockquote {
     margin: 0 0 0 30px;
 }
 
+/* Tasks */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    color: darkblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", "Helvetica", sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    letter-spacing: -5px;
+    word-spacing: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    line-height: 30px;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+em {
+    text-transform: capitalize;
+}
+
+strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
