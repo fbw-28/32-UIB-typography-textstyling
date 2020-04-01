@@ -1,0 +1,55 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+h1, h2, h3{ 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 3.0rem;
+}
+
+h2{
+    font-size: 2.0rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+blockquote {
+    margin: 0 0 0 30px;
+    font-style: italic;
+}
+
+span{
+    text-decoration: line-through;
+}
+
+em {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+strong{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:visited{
+    color: lawngreen;
+}
