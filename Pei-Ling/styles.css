@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota+Text&display=swap');
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px;
+    color: green;
+}
+
+blockquote {
+    margin: 0 0 0 30px;
+    font-style: italic;
+}
+
+h1, h2, h3 {
+    font-family: 'Bellota Text', cursive;
+    font-weight: bold;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+em {
+    text-transform: capitalize;
+}
+
+strong {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.link1 {
+    color: rgb(250, 89, 236);
+    text-decoration: none;    
+}
