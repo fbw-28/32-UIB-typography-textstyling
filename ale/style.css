@@ -1,0 +1,40 @@
+body {
+    color: red;
+    font-family: 'Montserrat', sans-serif, 'Times New Roman', Times, serif;
+}
+
+h1, h3 {
+    font-family: 'Montserrat', sans-serif, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    letter-spacing: 0.2px;
+    word-spacing: 2rem;
+}
+
+blockquote{
+    font-style: italic;
+    line-break: loose;
+}
+
+span{
+    text-decoration: line-through;
+}
+
+em{
+    text-transform: uppercase;
+}
+
+strong{
+    text-transform: capitalize;
+    font-weight: bold;
+}
